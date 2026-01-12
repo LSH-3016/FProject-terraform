@@ -14,7 +14,7 @@ resource "aws_db_instance" "main" {
   storage_encrypted     = true  # 암호화 활성화
 
   # Database
-  db_name  = "mydb"
+  db_name  = "onedb"
   username = var.db_username
   password = var.db_password
   port     = 5432
